@@ -6,19 +6,19 @@ const Pricing = () => {
     {
       imgUrl: "/pricing.jpg",
       title: "QUARTERLY",
-      price: 12000,
+      price: 150,
       length: 3,
     },
     {
       imgUrl: "/pricing.jpg",
       title: "HALF_YEARLY",
-      price: 22000,
+      price: 280,
       length: 6,
     },
     {
       imgUrl: "/pricing.jpg",
       title: "YEARLY",
-      price: 40000,
+      price: 500,
       length: 12,
     },
   ];
@@ -33,7 +33,7 @@ const Pricing = () => {
               <div className="title">
                 <h1>{element.title}</h1>
                 <h1>PACKAGE</h1>
-                <h3>Rs {element.price}</h3>
+                <h3>Usd {element.price}</h3>
                 <p>For {element.length} Months</p>
               </div>
               <div className="description">
